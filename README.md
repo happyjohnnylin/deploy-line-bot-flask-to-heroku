@@ -50,16 +50,16 @@ Note: {HEROKU_APP_NAME} is the app name from step 4.
 Step 6: Deploy the repository to Heroku using Git 
 ---------------
 1. Get into the folder *deploy-line-bot-flask-to-heroku* or other places where the repository is located.
-    
-    $ cd deploy-line-bot-flask-to-heroku
-    
+```   
+$ cd deploy-line-bot-flask-to-heroku
+```   
 2. Add the repository to git, commit it, and push to heroku master.
-   
-    $ git init  
-    $ git add .
-    $ git commit -m "First commit"
-    $ git push heroku master
-    
+```   
+$ git init  
+$ git add .
+$ git commit -m "First commit"
+$ git push heroku master
+```  
     
 Step 7: Enter the webhook URL in the console
 -----------------------
