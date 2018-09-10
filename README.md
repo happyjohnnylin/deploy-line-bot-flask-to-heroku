@@ -11,8 +11,8 @@ Prerequisites:
 Step 1: Login your Heroku account on terminal
 ---------------
     $ heroku login
-    $ {YOUR_SIGNED_UP_EMAIL}
-    $ {YOUR_PASSWORD}
+    $ Email: {YOUR_SIGNED_UP_EMAIL}
+    $ Password: {YOUR_PASSWORD}
     
 Step 2:Clone the repository
 ---------------
