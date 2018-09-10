@@ -3,8 +3,8 @@ Official LINE bot SDK in Python Flask: [line-bot-sdk-python](https://github.com/
 
 Prerequisites:
 -----------------------------------------
-1. Created a channel for your bot in LINE Developer [Console](https://developers.line.me/console/)
-2. A [Heroku account](https://www.heroku.com) (you can create one for free)
+1. Create a channel for your bot in LINE Developer [Console](https://developers.line.me/console/)
+2. Sign up [Heroku account](https://www.heroku.com) (you can create one for free)
 3. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your terminal
 4. [Install Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
 
