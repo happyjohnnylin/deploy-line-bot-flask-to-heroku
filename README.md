@@ -3,8 +3,6 @@
 Synopsis(app.py)
 --------
 
-Usage:
-
     from flask import Flask, request, abort
 
     from linebot import (
