@@ -68,11 +68,3 @@ Usage:
 
     if __name__ == "__main__":
         app.run()
-
-
-.. |Build Status| image:: https://travis-ci.org/line/line-bot-sdk-python.svg?branch=master
-   :target: https://travis-ci.org/line/line-bot-sdk-python
-.. |PyPI version| image:: https://badge.fury.io/py/line-bot-sdk.svg
-   :target: https://badge.fury.io/py/line-bot-sdk
-.. |Documentation Status| image:: https://readthedocs.org/projects/line-bot-sdk-python/badge/?version=latest
-   :target: http://line-bot-sdk-python.readthedocs.io/en/latest/?badge=latest
