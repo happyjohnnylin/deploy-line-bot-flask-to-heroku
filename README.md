@@ -42,6 +42,7 @@ Create a new Heroku app from the Heroku dashboard and copy the app name.
 Step 5: Add a remote to your local repository
 ----------------
 Use the git remote command to add a remote connection from your local repository to your Heroku app.
+
 Note: {HEROKU_APP_NAME} is the app name from step 4.
 
     $ heroku git:remote -a {HEROKU_APP_NAME}
