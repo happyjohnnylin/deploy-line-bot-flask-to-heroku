@@ -61,9 +61,9 @@ Step 6: Deploy the repository to Heroku using Git
     $ git push heroku master
     
     
-Step 7:Enter the webhook URL in the [console](https://developers.line.me/console/)
+Step 7: Enter the webhook URL in the console
 -----------------------
-Enter the webhook URL in the console using the following URL format: https://{HEROKU_APP_NAME}.herokuapp.com/callback
+Enter the webhook URL in the [console](https://developers.line.me/console/) using the following URL format: https://{HEROKU_APP_NAME}.herokuapp.com/callback
 
 
 **You can test your chat bot right now!**
