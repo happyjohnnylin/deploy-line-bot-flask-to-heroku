@@ -14,12 +14,14 @@ Step 1: Login your Heroku account on terminal
     $ Email: {YOUR_SIGNED_UP_EMAIL}
     $ Password: {YOUR_PASSWORD}
     
+    
 Step 2:Clone the repository
 ---------------
 Use Git to clone this repository or directly download to your local machine.
 
     $ git clone {LINK_TO_THIS_REPOSITORY}
-    
+ 
+ 
 Step 3: Modify app.py
 --------
 *Change the **channel secret** and **channel access token** provided from the ![console](https://developers.line.me/console/)*
@@ -70,10 +72,12 @@ Step 3: Modify app.py
     if __name__ == "__main__":
         app.run()
 ```    
-    
+  
+  
 Step 4: Create a new Heroku app
 -------------------
 Create a new Heroku app from the Heroku dashboard and copy the app name.
+
 
 Step 5: Add a remote to your local repository
 ----------------
@@ -81,6 +85,7 @@ Use the git remote command to add a remote connection from your local repository
 Note: {HEROKU_APP_NAME} is the app name from step 4.
 
     $ heroku git:remote -a {HEROKU_APP_NAME}
+
 
 Step 6: Deploy the repository to Heroku using Git 
 ---------------
@@ -99,6 +104,7 @@ Step 6: Deploy the repository to Heroku using Git
 Step 7:Enter the webhook URL in the [console](https://developers.line.me/console/)
 -----------------------
 Enter the webhook URL in the console using the following URL format: https://{HEROKU_APP_NAME}.herokuapp.com/callback
+
 
 **You can test your chat bot right now!**
 
