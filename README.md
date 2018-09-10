@@ -1,8 +1,29 @@
-# line-bot-sdk-python-on-heroku
+# Deploy LINE bot Flask to Heroku
 
-Synopsis(app.py)
+Prerequisites:
+-----------------------------------------
+1. Created a channel for your bot in LINE Developer [Console](https://developers.line.me/console/)
+2. A Heroku account (you can create one for free)
+3. Install Git on your terminal[Installation instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+4. Install Heroku CLI [Installation instructions](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
+
+
+Step 1: Login your Heroku account on terminal
+---------------
+    $ heroku login
+    $ {YOUR_SIGNED_UP_EMAIL}
+    $ {YOUR_PASSWORD}
+    
+Step 2:Clone the repository
+---------------
+Use Git to clone this repository or directly download to your local machine.
+
+    $ git clone {LINK_TO_THIS_REPOSITORY}
+    
+Step 3: Modify app.py
 --------
-
+*Change the **channel secret** and **channel access token** provided from the ![console](https://developers.line.me/console/)*
+```
     from flask import Flask, request, abort
 
     from linebot import (
@@ -48,10 +69,43 @@ Synopsis(app.py)
 
     if __name__ == "__main__":
         app.run()
+```    
+    
+Step 4: Create a new Heroku app
+-------------------
+Create a new Heroku app from the Heroku dashboard and copy the app name.
+
+Step 5: Add a remote to your local repository
+----------------
+Use the git remote command to add a remote connection from your local repository to your Heroku app.
+Note: {HEROKU_APP_NAME} is the app name from step 4.
+
+    $ heroku git:remote -a {HEROKU_APP_NAME}
+
+Step 6: Deploy the repository to Heroku using Git 
+---------------
+1. Get into the folder *deploy-line-bot-flask-to-heroku* or other places where the repository is located.
+    
+    $ cd deploy-line-bot-flask-to-heroku
+    
+2. Add the repository to git, commit it, and push to heroku master.
+   
+    $ git init  
+    $ git add .
+    $ git commit -m "First commit"
+    $ git push heroku master
+    
+    
+Step 7:Enter the webhook URL in the [console](https://developers.line.me/console/)
+-----------------------
+Enter the webhook URL in the console using the following URL format: https://{HEROKU_APP_NAME}.herokuapp.com/callback
+
+**You can test your chat bot right now!**
+
+
 
 About the LINE Messaging API
 ----------------------------
-
 See the official LINE Messaging API documentation for more information.
 
 English: https://developers.line.me/en/docs/messaging-api/reference/
