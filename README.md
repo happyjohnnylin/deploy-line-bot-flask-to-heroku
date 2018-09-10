@@ -5,8 +5,6 @@ Synopsis(app.py)
 
 Usage:
 
-.. code:: python
-
     from flask import Flask, request, abort
 
     from linebot import (
