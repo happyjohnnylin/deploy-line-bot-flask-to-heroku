@@ -1,4 +1,5 @@
-# Deploy LINE bot (Flask version) to Heroku
+# Deploy LINE bot (Python Flask version) to Heroku
+[The official Python Flask SDK](https://github.com/line/line-bot-sdk-python)
 
 Prerequisites:
 -----------------------------------------
