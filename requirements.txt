@@ -1,0 +1,13 @@
+Flask >= 1.0.2
+gunicorn==19.6.0
+requests >= 2.0
+future
+pytest
+pytest-pep8
+pytest-cov
+responses
+tox
+wheel
+sphinx_rtd_theme
+pypandoc
+twine
