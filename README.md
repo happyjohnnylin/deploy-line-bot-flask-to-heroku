@@ -1,21 +1,5 @@
 # line-bot-sdk-python-on-heroku
 
-===================
-
-|Build Status| |PyPI version| |Documentation Status|
-
-SDK of the LINE Messaging API for Python.
-
-About the LINE Messaging API
-----------------------------
-
-See the official API documentation for more information.
-
-English: https://developers.line.me/en/docs/messaging-api/reference/
-
-Japanese: https://developers.line.me/ja/docs/messaging-api/reference/
-
-
 Synopsis(app.py)
 --------
 
@@ -68,3 +52,12 @@ Usage:
 
     if __name__ == "__main__":
         app.run()
+
+About the LINE Messaging API
+----------------------------
+
+See the official LINE Messaging API documentation for more information.
+
+English: https://developers.line.me/en/docs/messaging-api/reference/
+
+Japanese: https://developers.line.me/ja/docs/messaging-api/reference/
