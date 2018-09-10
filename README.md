@@ -25,7 +25,7 @@ Use Git to clone this repository or directly download to your local machine.
 Step 3: Modify app.py
 --------
 Change the **channel secret** and **channel access token** provided from the [console](https://developers.line.me/console/)
-```
+
     from flask import Flask, request, abort
 
     from linebot import (
@@ -70,8 +70,7 @@ Change the **channel secret** and **channel access token** provided from the [co
 
 
     if __name__ == "__main__":
-        app.run()
-```    
+        app.run()   
   
   
 Step 4: Create a new Heroku app
